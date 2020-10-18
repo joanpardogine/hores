@@ -4,7 +4,8 @@ function mostraHora(){
   let rellotge = document.getElementById("rellotge");
   let informacio = document.getElementById("informacio");
   let data = new Date();
-  
+
+  console.log ("data = " + data);
   let hores = data.getHours();
   let minuts = data.getMinutes();
   let segons = data.getSeconds();
